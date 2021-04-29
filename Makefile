@@ -5,7 +5,9 @@ BUILD_DIR = Build
 # All Source code files
 SRC = project_main.c\
 src/setup.c\
-src/fuse.c
+src/fuse.c\
+src/ReadADC.c\
+src/outPWM.c
 
 # All header file paths
 INC = -I inc

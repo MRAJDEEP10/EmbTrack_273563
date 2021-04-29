@@ -1,12 +1,20 @@
-
 #include <avr/io.h>
+#include<util/delay.h>
 #include"setter.h"
+#include"readadc.h"
+#include "outPWM.h"
 
+
+
+uint16_t temp;
 int main(void)
 {
 
 
  setup();
+ InitADC();
+
+ InitPWM();
 
     while(1){
 
@@ -17,6 +25,9 @@ int main(void)
         if(!(PIND&(1<<PD1))) //WHEN SEAT IS OCCUPIED AND HEATER IN ON
         {
             PORTB|= (1<<PB0); // LED TURNED ON
+            temp=ReadADC(0);
+            OutPWM(temp);
+
 
         }
         else{               // WHEN SEAT IS OCCUPIED BUT HEATER IS OFF
@@ -26,6 +37,7 @@ int main(void)
     }
         }else{              //WHEN SEAT IS NOT OCCUPIED
             PORTB&= ~(1<<PB0);
+             OCR1A=0;
 
         }
 
