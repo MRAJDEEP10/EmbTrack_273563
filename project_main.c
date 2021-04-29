@@ -1,4 +1,5 @@
 #include <avr/io.h>
+#include<util/delay.h>
 #include"setter.h"
 #include"readadc.h"
 #include "outPWM.h"

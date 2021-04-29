@@ -1,17 +1,6 @@
-/**
- * @file outPWM.c
- * @author Mihir Rajdeep (273563)
- * @brief Adjusting PWM according to given Temperature Value
- * @version 0.1
- * @date 2021-04-28
- * 
- * @copyright Copyright (c) 2021
- * 
- */
-
+#include"outPWM.h"
 #include<util/delay.h>
 #include<avr/io.h>
-#include "outPWM.h"
 
 void InitPWM(void)
 {
