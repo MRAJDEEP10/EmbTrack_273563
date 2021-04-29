@@ -8,8 +8,10 @@
  * @copyright Copyright (c) 2021
  * 
  */
+
 #include<util/delay.h>
 #include<avr/io.h>
+#include "outPWM.h"
 
 void InitPWM(void)
 {
