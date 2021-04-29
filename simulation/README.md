@@ -1,23 +1,13 @@
 # Simulation
 
-## OFF
-
-### Condition 1
-
-* When Both the Switch is in OFF Condition.
-
-![OFF](simu1.png)
-
-### Condition2
-
-* When One of the Switch is in OFF Condition.
-
-![OFF](simu2.png)
-
-![OFF](simu3.png)
-
-## ON
-
-* When Both Switch is in ON Condition.
+## Activity 1
 
 ![ON](simu4.png)
+
+## Activity 2
+
+![ADC](activity2.png)
+
+## Activity 3
+
+![PWM](activity3.png)
