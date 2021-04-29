@@ -1,4 +1,14 @@
-#include<avr/io.h>
+/**
+ * @file readadc.c
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include "readadc.h"
 
 uint16_t ReadADC(uint8_t ch)

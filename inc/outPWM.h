@@ -1,4 +1,13 @@
-#ifndef OUTPWM_H_INCLUDED
+/**
+ * @file outPWM.h
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #define OUTPWM_H_INCLUDED
 #include <avr/io.h>
 
