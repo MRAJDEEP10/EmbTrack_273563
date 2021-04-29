@@ -6,7 +6,7 @@ BUILD_DIR = Build
 SRC = project_main.c\
 src/setup.c\
 src/fuse.c\
-src/ReadADC.c\
+src/readadc.c\
 src/outPWM.c
 
 # All header file paths
