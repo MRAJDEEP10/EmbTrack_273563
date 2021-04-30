@@ -1,7 +1,7 @@
 /**
  * @file project_main.c
- * @author your name (you@domain.com)
- * @brief 
+ * @author Mihir Rajdeep (273563)
+ * @brief Final Project
  * @version 0.1
  * @date 2021-04-30
  * 
