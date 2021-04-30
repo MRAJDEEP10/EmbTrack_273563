@@ -15,3 +15,7 @@
 ## Activity 3
 
 ![PWM](simulation/activity3.png)
+
+## Activity 4
+
+![PWM](simulation/activity4.png)
