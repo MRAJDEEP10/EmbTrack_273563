@@ -1,3 +1,13 @@
+/**
+ * @file readadc.c
+ * @author Mihir Rajdeep (273563)
+ * @brief ADC Functions
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include<avr/io.h>
 #include "readadc.h"
 

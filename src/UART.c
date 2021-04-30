@@ -1,7 +1,7 @@
 /**
  * @file UART.c
- * @author your name (you@domain.com)
- * @brief 
+ * @author Mihir Rajdeep (273563)
+ * @brief Functions for UART Serial Communications
  * @version 0.1
  * @date 2021-04-30
  * 

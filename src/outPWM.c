@@ -1,4 +1,13 @@
-#include"outPWM.h"
+/**
+ * @file outPWM.c
+ * @author Mihir Rajdeep (273563)
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include<util/delay.h>
 #include<avr/io.h>
 
