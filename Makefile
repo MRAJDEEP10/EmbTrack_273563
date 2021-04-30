@@ -7,7 +7,8 @@ SRC = project_main.c\
 src/setup.c\
 src/fuse.c\
 src/readadc.c\
-src/outPWM.c
+src/outPWM.c\
+src/UART.c
 
 # All header file paths
 INC = -I inc

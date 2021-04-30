@@ -3,18 +3,20 @@
 #include"setter.h"
 #include"readadc.h"
 #include "outPWM.h"
-
-
+#include"WriteUART.h"
 
 uint16_t temp;
+char temp_data;
+
+
 int main(void)
 {
 
 
  setup();
  InitADC();
-
  InitPWM();
+ InitUART(103);
 
     while(1){
 
@@ -26,7 +28,9 @@ int main(void)
         {
             PORTB|= (1<<PB0); // LED TURNED ON
             temp=ReadADC(0);
-            OutPWM(temp);
+            temp_data= OutPWM(temp);
+            UARTwrite(temp_data);
+
 
 
         }

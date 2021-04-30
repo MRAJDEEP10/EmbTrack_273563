@@ -1,5 +1,5 @@
+#include<avr/io.h>
 #include "readadc.h"
-
 
 uint16_t ReadADC(uint8_t ch)
 {
